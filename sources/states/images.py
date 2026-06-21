@@ -1,0 +1,8 @@
+IMAGES = {
+    "profile": "AgACAgIAAxkDAAO_afo8XodyWr7uygABV8bRhol6WdFoAAK9GWsbPrHRS0CITJjP-lACAQADAgADeAADOwQ",
+    "admin": "AgACAgIAAxkDAAPAafo8XgngaMqmOY1YM5z8smPGnGEAAr4Zaxs-sdFLddl9oZebT2sBAAMCAAN4AAM7BA",
+    "bonus": "AgACAgIAAxkDAAPBafo8X39JObtCBwEarVIIby2O8W8AAr8Zaxs-sdFLk4xbvtuFwo4BAAMCAAN4AAM7BA",
+    "withdraw": "AgACAgIAAxkDAAPEafo8YexffWRc0yRsWRiju_m6TtQAAsAZaxs-sdFLcPNEX0oacoIBAAMCAAN4AAM7BA",
+    "sponsors": "AgACAgIAAxkDAAPIafo9h-9lLb91n8gUH4EmDFL-yhAAAucZaxs-sdFLFwABpL0gvdZmAQADAgADeAADOwQ",
+    "refferals": "AgACAgIAAxkDAAPJafo9hyz1PGarMGv9Wa6OEDARXVUAAugZaxs-sdFLI8WC-m7jhdsBAAMCAAN4AAM7BA"
+}

@@ -1,0 +1,2044 @@
+2026-06-21 17:16:48,762 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:16:48,783 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("UsersTable")
+2026-06-21 17:16:48,784 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:16:48,792 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("PromoTable")
+2026-06-21 17:16:48,792 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:16:48,796 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("WithdrawTable")
+2026-06-21 17:16:48,797 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:16:48,800 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("SponsorsTable")
+2026-06-21 17:16:48,802 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:16:48,805 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 17:16:49,131 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-21 17:16:49,166 - apscheduler.scheduler - INFO - Added job "CheckAllUsersSubsOnStatisOP" to job store "default"
+2026-06-21 17:16:49,167 - apscheduler.scheduler - INFO - Scheduler started
+2026-06-21 17:16:49,307 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:16:49,320 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable"
+2026-06-21 17:16:49,369 - sqlalchemy.engine.Engine - INFO - [generated in 0.00115s] ()
+2026-06-21 17:16:50,060 - aiogram.dispatcher - INFO - Start polling
+2026-06-21 17:16:50,120 - aiogram.dispatcher - INFO - Run polling for bot @goluboytemshikBot id=8516668126 - 'goluboytemshikbot'
+2026-06-21 17:16:50,301 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:50,305 - sqlalchemy.engine.Engine - INFO - [generated in 0.00446s] ()
+2026-06-21 17:16:50,466 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:50,503 - sqlalchemy.engine.Engine - INFO - [cached since 0.2019s ago] ()
+2026-06-21 17:16:50,643 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:50,648 - sqlalchemy.engine.Engine - INFO - [cached since 0.3474s ago] ()
+2026-06-21 17:16:50,726 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:50,749 - sqlalchemy.engine.Engine - INFO - [cached since 0.4478s ago] ()
+2026-06-21 17:16:50,825 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:50,829 - sqlalchemy.engine.Engine - INFO - [cached since 0.5281s ago] ()
+2026-06-21 17:16:50,969 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:50,973 - sqlalchemy.engine.Engine - INFO - [cached since 0.6723s ago] ()
+2026-06-21 17:16:51,208 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:51,213 - sqlalchemy.engine.Engine - INFO - [cached since 0.9121s ago] ()
+2026-06-21 17:16:51,390 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:51,394 - sqlalchemy.engine.Engine - INFO - [cached since 1.093s ago] ()
+2026-06-21 17:16:51,526 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:51,531 - sqlalchemy.engine.Engine - INFO - [cached since 1.231s ago] ()
+2026-06-21 17:16:51,676 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:51,725 - sqlalchemy.engine.Engine - INFO - [cached since 1.424s ago] ()
+2026-06-21 17:16:51,810 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:51,813 - sqlalchemy.engine.Engine - INFO - [cached since 1.513s ago] ()
+2026-06-21 17:16:51,893 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:51,898 - sqlalchemy.engine.Engine - INFO - [cached since 1.598s ago] ()
+2026-06-21 17:16:52,050 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:52,052 - sqlalchemy.engine.Engine - INFO - [cached since 1.751s ago] ()
+2026-06-21 17:16:52,121 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:52,127 - sqlalchemy.engine.Engine - INFO - [cached since 1.825s ago] ()
+2026-06-21 17:16:52,212 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:52,220 - sqlalchemy.engine.Engine - INFO - [cached since 1.919s ago] ()
+2026-06-21 17:16:52,305 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:52,307 - sqlalchemy.engine.Engine - INFO - [cached since 2.007s ago] ()
+2026-06-21 17:16:52,393 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:52,398 - sqlalchemy.engine.Engine - INFO - [cached since 2.097s ago] ()
+2026-06-21 17:16:52,490 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:52,493 - sqlalchemy.engine.Engine - INFO - [cached since 2.193s ago] ()
+2026-06-21 17:16:52,581 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:52,584 - sqlalchemy.engine.Engine - INFO - [cached since 2.284s ago] ()
+2026-06-21 17:16:52,918 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:52,925 - sqlalchemy.engine.Engine - INFO - [cached since 2.624s ago] ()
+2026-06-21 17:16:52,993 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:53,001 - sqlalchemy.engine.Engine - INFO - [cached since 2.7s ago] ()
+2026-06-21 17:16:53,176 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:53,203 - sqlalchemy.engine.Engine - INFO - [cached since 2.903s ago] ()
+2026-06-21 17:16:53,318 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:53,322 - sqlalchemy.engine.Engine - INFO - [cached since 3.022s ago] ()
+2026-06-21 17:16:53,399 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable" 
+WHERE "UsersTable"."tgId" = ?
+2026-06-21 17:16:53,403 - sqlalchemy.engine.Engine - INFO - [generated in 0.00454s] (670263244,)
+2026-06-21 17:16:53,445 - sqlalchemy.engine.Engine - INFO - UPDATE "UsersTable" SET balance=("UsersTable".balance - ?) WHERE "UsersTable"."tgId" = ?
+2026-06-21 17:16:53,450 - sqlalchemy.engine.Engine - INFO - [generated in 0.00481s] (0.015, 670263244)
+2026-06-21 17:16:53,547 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 17:16:53,956 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:16:53,962 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:53,965 - sqlalchemy.engine.Engine - INFO - [cached since 3.664s ago] ()
+2026-06-21 17:16:54,383 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:54,391 - sqlalchemy.engine.Engine - INFO - [cached since 4.09s ago] ()
+2026-06-21 17:16:54,674 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:54,681 - sqlalchemy.engine.Engine - INFO - [cached since 4.38s ago] ()
+2026-06-21 17:16:54,827 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:54,851 - sqlalchemy.engine.Engine - INFO - [cached since 4.55s ago] ()
+2026-06-21 17:16:54,952 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:54,955 - sqlalchemy.engine.Engine - INFO - [cached since 4.654s ago] ()
+2026-06-21 17:16:55,062 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:55,066 - sqlalchemy.engine.Engine - INFO - [cached since 4.765s ago] ()
+2026-06-21 17:16:55,159 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:55,164 - sqlalchemy.engine.Engine - INFO - [cached since 4.863s ago] ()
+2026-06-21 17:16:55,241 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:55,251 - sqlalchemy.engine.Engine - INFO - [cached since 4.95s ago] ()
+2026-06-21 17:16:55,358 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:55,361 - sqlalchemy.engine.Engine - INFO - [cached since 5.06s ago] ()
+2026-06-21 17:16:55,469 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:55,472 - sqlalchemy.engine.Engine - INFO - [cached since 5.171s ago] ()
+2026-06-21 17:16:55,572 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable" 
+WHERE "UsersTable"."tgId" = ?
+2026-06-21 17:16:55,579 - sqlalchemy.engine.Engine - INFO - [cached since 2.18s ago] (5690175885,)
+2026-06-21 17:16:55,701 - sqlalchemy.engine.Engine - INFO - UPDATE "UsersTable" SET balance=("UsersTable".balance - ?) WHERE "UsersTable"."tgId" = ?
+2026-06-21 17:16:55,708 - sqlalchemy.engine.Engine - INFO - [cached since 2.263s ago] (0.015, 5690175885)
+2026-06-21 17:16:55,741 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 17:16:56,041 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:16:56,050 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:56,058 - sqlalchemy.engine.Engine - INFO - [cached since 5.757s ago] ()
+2026-06-21 17:16:56,185 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:56,187 - sqlalchemy.engine.Engine - INFO - [cached since 5.887s ago] ()
+2026-06-21 17:16:56,319 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:56,324 - sqlalchemy.engine.Engine - INFO - [cached since 6.024s ago] ()
+2026-06-21 17:16:56,511 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:56,516 - sqlalchemy.engine.Engine - INFO - [cached since 6.215s ago] ()
+2026-06-21 17:16:56,598 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:16:56,601 - sqlalchemy.engine.Engine - INFO - [cached since 6.3s ago] ()
+2026-06-21 17:16:56,882 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:17:01,562 - aiogram.event - INFO - Update id=831867906 is handled. Duration 1 ms by bot id=8516668126
+2026-06-21 17:17:14,452 - aiogram.event - INFO - Update id=831867907 is handled. Duration 2 ms by bot id=8516668126
+2026-06-21 17:17:16,245 - aiogram.event - INFO - Update id=831867908 is handled. Duration 1 ms by bot id=8516668126
+2026-06-21 17:17:16,872 - aiogram.event - INFO - Update id=831867909 is handled. Duration 2 ms by bot id=8516668126
+2026-06-21 17:17:17,385 - aiogram.event - INFO - Update id=831867910 is handled. Duration 2 ms by bot id=8516668126
+2026-06-21 17:17:17,778 - aiogram.event - INFO - Update id=831867911 is handled. Duration 2 ms by bot id=8516668126
+2026-06-21 17:17:42,718 - aiogram.event - INFO - Update id=831867912 is handled. Duration 4 ms by bot id=8516668126
+2026-06-21 17:17:52,190 - aiogram.event - INFO - Update id=831867913 is handled. Duration 818 ms by bot id=8516668126
+2026-06-21 17:17:55,600 - aiogram.event - INFO - Update id=831867914 is handled. Duration 534 ms by bot id=8516668126
+2026-06-21 17:17:58,041 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:17:58,045 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:17:58,047 - sqlalchemy.engine.Engine - INFO - [cached since 67.75s ago] ()
+2026-06-21 17:17:58,068 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:18:02,822 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:18:02,826 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:18:02,988 - sqlalchemy.engine.Engine - INFO - [cached since 72.69s ago] ()
+2026-06-21 17:18:03,000 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:18:04,487 - aiogram.event - INFO - Update id=831867915 is not handled. Duration 6448 ms by bot id=8516668126
+2026-06-21 17:18:04,488 - aiogram.event - ERROR - Cause exception while process update id=831867915 by bot id=8516668126
+ValidationError: 1 validation error for InlineKeyboardButton
+url
+  Input should be a valid string [type=string_type, input_value=-1002724022440, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 163, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 155, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 191, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 163, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 155, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 183, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\Desktop\meimunusd\sources\handlers\commands.py", line 62, in StartCommand
+    reply_markup = await sponsors.FormateKeyboard("open:main", msg.from_user.id),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\Desktop\meimunusd\sources\utils\sponsors.py", line 90, in FormateKeyboard
+    InlineKeyboardButton(
+    ~~~~~~~~~~~~~~~~~~~~^
+        text=f"Спонсор №{i + 1}",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+        url=link
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\pydantic\main.py", line 250, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardButton
+url
+  Input should be a valid string [type=string_type, input_value=-1002724022440, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-06-21 17:19:42,760 - aiogram.dispatcher - INFO - Polling stopped
+2026-06-21 17:19:42,780 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-06-21 17:19:42,780 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8516668126)
+2026-06-21 17:19:43,063 - aiogram.dispatcher - INFO - Polling stopped for bot @goluboytemshikBot id=8516668126 - 'goluboytemshikbot'
+2026-06-21 17:20:20,096 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:46:36,679 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("UsersTable")
+2026-06-21 17:46:36,680 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:46:38,155 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("PromoTable")
+2026-06-21 17:46:38,156 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:46:38,162 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("WithdrawTable")
+2026-06-21 17:46:38,163 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:46:38,166 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("SponsorsTable")
+2026-06-21 17:46:38,167 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:46:38,171 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 17:46:38,882 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-21 17:46:38,994 - apscheduler.scheduler - INFO - Added job "CheckAllUsersSubsOnStatisOP" to job store "default"
+2026-06-21 17:46:38,997 - apscheduler.scheduler - INFO - Scheduler started
+2026-06-21 17:46:39,385 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:46:39,419 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable"
+2026-06-21 17:46:39,496 - sqlalchemy.engine.Engine - INFO - [generated in 0.00282s] ()
+2026-06-21 17:46:40,788 - aiogram.dispatcher - INFO - Start polling
+2026-06-21 17:46:40,883 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:40,887 - sqlalchemy.engine.Engine - INFO - [generated in 0.00405s] ()
+2026-06-21 17:46:40,897 - aiogram.dispatcher - INFO - Run polling for bot @goluboytemshikBot id=8516668126 - 'goluboytemshikbot'
+2026-06-21 17:46:41,016 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:41,018 - sqlalchemy.engine.Engine - INFO - [cached since 0.1355s ago] ()
+2026-06-21 17:46:41,081 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:41,085 - sqlalchemy.engine.Engine - INFO - [cached since 0.2027s ago] ()
+2026-06-21 17:46:41,144 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:41,148 - sqlalchemy.engine.Engine - INFO - [cached since 0.2655s ago] ()
+2026-06-21 17:46:41,218 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:41,222 - sqlalchemy.engine.Engine - INFO - [cached since 0.3396s ago] ()
+2026-06-21 17:46:41,283 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:41,287 - sqlalchemy.engine.Engine - INFO - [cached since 0.4048s ago] ()
+2026-06-21 17:46:41,354 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:41,357 - sqlalchemy.engine.Engine - INFO - [cached since 0.475s ago] ()
+2026-06-21 17:46:41,427 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:41,431 - sqlalchemy.engine.Engine - INFO - [cached since 0.5481s ago] ()
+2026-06-21 17:46:41,506 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:41,509 - sqlalchemy.engine.Engine - INFO - [cached since 0.627s ago] ()
+2026-06-21 17:46:41,593 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:41,598 - sqlalchemy.engine.Engine - INFO - [cached since 0.7159s ago] ()
+2026-06-21 17:46:41,663 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:41,666 - sqlalchemy.engine.Engine - INFO - [cached since 0.7839s ago] ()
+2026-06-21 17:46:41,745 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:41,752 - sqlalchemy.engine.Engine - INFO - [cached since 0.8698s ago] ()
+2026-06-21 17:46:41,818 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:41,822 - sqlalchemy.engine.Engine - INFO - [cached since 0.9392s ago] ()
+2026-06-21 17:46:41,884 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:41,890 - sqlalchemy.engine.Engine - INFO - [cached since 1.008s ago] ()
+2026-06-21 17:46:41,974 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:41,982 - sqlalchemy.engine.Engine - INFO - [cached since 1.099s ago] ()
+2026-06-21 17:46:42,057 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:42,063 - sqlalchemy.engine.Engine - INFO - [cached since 1.181s ago] ()
+2026-06-21 17:46:42,137 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:42,144 - sqlalchemy.engine.Engine - INFO - [cached since 1.261s ago] ()
+2026-06-21 17:46:42,216 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:42,222 - sqlalchemy.engine.Engine - INFO - [cached since 1.339s ago] ()
+2026-06-21 17:46:42,284 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:42,287 - sqlalchemy.engine.Engine - INFO - [cached since 1.405s ago] ()
+2026-06-21 17:46:42,350 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:42,352 - sqlalchemy.engine.Engine - INFO - [cached since 1.47s ago] ()
+2026-06-21 17:46:42,408 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:42,416 - sqlalchemy.engine.Engine - INFO - [cached since 1.533s ago] ()
+2026-06-21 17:46:42,475 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:42,480 - sqlalchemy.engine.Engine - INFO - [cached since 1.597s ago] ()
+2026-06-21 17:46:42,554 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:42,563 - sqlalchemy.engine.Engine - INFO - [cached since 1.681s ago] ()
+2026-06-21 17:46:42,625 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable" 
+WHERE "UsersTable"."tgId" = ?
+2026-06-21 17:46:42,636 - sqlalchemy.engine.Engine - INFO - [generated in 0.01088s] (670263244,)
+2026-06-21 17:46:42,714 - sqlalchemy.engine.Engine - INFO - UPDATE "UsersTable" SET balance=("UsersTable".balance - ?) WHERE "UsersTable"."tgId" = ?
+2026-06-21 17:46:42,718 - sqlalchemy.engine.Engine - INFO - [generated in 0.00370s] (0.015, 670263244)
+2026-06-21 17:46:42,730 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 17:46:43,012 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:46:43,019 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:43,021 - sqlalchemy.engine.Engine - INFO - [cached since 2.138s ago] ()
+2026-06-21 17:46:43,101 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:43,108 - sqlalchemy.engine.Engine - INFO - [cached since 2.225s ago] ()
+2026-06-21 17:46:43,189 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:43,195 - sqlalchemy.engine.Engine - INFO - [cached since 2.313s ago] ()
+2026-06-21 17:46:43,257 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:43,261 - sqlalchemy.engine.Engine - INFO - [cached since 2.378s ago] ()
+2026-06-21 17:46:43,325 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:43,330 - sqlalchemy.engine.Engine - INFO - [cached since 2.448s ago] ()
+2026-06-21 17:46:43,411 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:43,421 - sqlalchemy.engine.Engine - INFO - [cached since 2.539s ago] ()
+2026-06-21 17:46:43,528 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:43,533 - sqlalchemy.engine.Engine - INFO - [cached since 2.651s ago] ()
+2026-06-21 17:46:43,658 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:43,674 - sqlalchemy.engine.Engine - INFO - [cached since 2.791s ago] ()
+2026-06-21 17:46:43,748 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:43,751 - sqlalchemy.engine.Engine - INFO - [cached since 2.869s ago] ()
+2026-06-21 17:46:43,826 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:43,828 - sqlalchemy.engine.Engine - INFO - [cached since 2.946s ago] ()
+2026-06-21 17:46:43,894 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable" 
+WHERE "UsersTable"."tgId" = ?
+2026-06-21 17:46:43,901 - sqlalchemy.engine.Engine - INFO - [cached since 1.276s ago] (5690175885,)
+2026-06-21 17:46:43,911 - sqlalchemy.engine.Engine - INFO - UPDATE "UsersTable" SET balance=("UsersTable".balance - ?) WHERE "UsersTable"."tgId" = ?
+2026-06-21 17:46:43,923 - sqlalchemy.engine.Engine - INFO - [cached since 1.209s ago] (0.015, 5690175885)
+2026-06-21 17:46:43,933 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 17:46:44,220 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:46:44,227 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:44,228 - sqlalchemy.engine.Engine - INFO - [cached since 3.346s ago] ()
+2026-06-21 17:46:44,292 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:44,300 - sqlalchemy.engine.Engine - INFO - [cached since 3.417s ago] ()
+2026-06-21 17:46:44,444 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:44,451 - sqlalchemy.engine.Engine - INFO - [cached since 3.568s ago] ()
+2026-06-21 17:46:44,510 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:44,516 - sqlalchemy.engine.Engine - INFO - [cached since 3.634s ago] ()
+2026-06-21 17:46:44,688 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:44,693 - sqlalchemy.engine.Engine - INFO - [cached since 3.811s ago] ()
+2026-06-21 17:46:44,841 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:46:46,575 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:46:46,584 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:46,586 - sqlalchemy.engine.Engine - INFO - [cached since 5.704s ago] ()
+2026-06-21 17:46:46,596 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:46:50,343 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:46:50,351 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:46:50,355 - sqlalchemy.engine.Engine - INFO - [cached since 9.473s ago] ()
+2026-06-21 17:46:50,372 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:46:51,903 - aiogram.event - INFO - Update id=831867916 is not handled. Duration 5330 ms by bot id=8516668126
+2026-06-21 17:46:51,906 - aiogram.event - ERROR - Cause exception while process update id=831867916 by bot id=8516668126
+ValidationError: 1 validation error for InlineKeyboardButton
+url
+  Input should be a valid string [type=string_type, input_value=-1002724022440, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 163, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 155, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 191, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 163, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 155, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 183, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\Desktop\meimunusd\sources\handlers\commands.py", line 62, in StartCommand
+    reply_markup = await sponsors.FormateKeyboard("open:main", msg.from_user.id),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\Desktop\meimunusd\sources\utils\sponsors.py", line 91, in FormateKeyboard
+    InlineKeyboardButton(
+    ~~~~~~~~~~~~~~~~~~~~^
+        text=f"Спонсор №{i + 1}",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+        url=link
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\pydantic\main.py", line 250, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardButton
+url
+  Input should be a valid string [type=string_type, input_value=-1002724022440, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-06-21 17:48:29,844 - aiogram.dispatcher - INFO - Polling stopped
+2026-06-21 17:48:29,864 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-06-21 17:48:29,866 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8516668126)
+2026-06-21 17:48:30,146 - aiogram.dispatcher - INFO - Polling stopped for bot @goluboytemshikBot id=8516668126 - 'goluboytemshikbot'
+2026-06-21 17:50:00,859 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:50:00,956 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("UsersTable")
+2026-06-21 17:50:00,957 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:50:01,299 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("PromoTable")
+2026-06-21 17:50:01,300 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:50:01,304 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("WithdrawTable")
+2026-06-21 17:50:01,305 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:50:01,308 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("SponsorsTable")
+2026-06-21 17:50:01,309 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:50:01,314 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 17:50:01,751 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-21 17:50:01,805 - apscheduler.scheduler - INFO - Added job "CheckAllUsersSubsOnStatisOP" to job store "default"
+2026-06-21 17:50:01,806 - apscheduler.scheduler - INFO - Scheduler started
+2026-06-21 17:50:02,224 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:50:02,238 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable"
+2026-06-21 17:50:02,263 - sqlalchemy.engine.Engine - INFO - [generated in 0.00116s] ()
+2026-06-21 17:50:04,600 - aiogram.dispatcher - INFO - Start polling
+2026-06-21 17:50:04,760 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:04,909 - sqlalchemy.engine.Engine - INFO - [generated in 0.14916s] ()
+2026-06-21 17:50:05,182 - aiogram.dispatcher - INFO - Run polling for bot @goluboytemshikBot id=8516668126 - 'goluboytemshikbot'
+2026-06-21 17:50:05,571 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:05,575 - sqlalchemy.engine.Engine - INFO - [cached since 0.8144s ago] ()
+2026-06-21 17:50:05,635 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:05,640 - sqlalchemy.engine.Engine - INFO - [cached since 0.8798s ago] ()
+2026-06-21 17:50:05,701 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:05,705 - sqlalchemy.engine.Engine - INFO - [cached since 0.9442s ago] ()
+2026-06-21 17:50:05,767 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:05,770 - sqlalchemy.engine.Engine - INFO - [cached since 1.01s ago] ()
+2026-06-21 17:50:05,835 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:05,838 - sqlalchemy.engine.Engine - INFO - [cached since 1.078s ago] ()
+2026-06-21 17:50:05,899 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:05,902 - sqlalchemy.engine.Engine - INFO - [cached since 1.142s ago] ()
+2026-06-21 17:50:05,960 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:05,963 - sqlalchemy.engine.Engine - INFO - [cached since 1.203s ago] ()
+2026-06-21 17:50:06,067 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:06,074 - sqlalchemy.engine.Engine - INFO - [cached since 1.313s ago] ()
+2026-06-21 17:50:06,148 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:06,154 - sqlalchemy.engine.Engine - INFO - [cached since 1.394s ago] ()
+2026-06-21 17:50:06,216 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:06,220 - sqlalchemy.engine.Engine - INFO - [cached since 1.46s ago] ()
+2026-06-21 17:50:06,424 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:06,429 - sqlalchemy.engine.Engine - INFO - [cached since 1.669s ago] ()
+2026-06-21 17:50:06,490 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:06,494 - sqlalchemy.engine.Engine - INFO - [cached since 1.734s ago] ()
+2026-06-21 17:50:06,550 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:06,557 - sqlalchemy.engine.Engine - INFO - [cached since 1.797s ago] ()
+2026-06-21 17:50:06,693 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:06,699 - sqlalchemy.engine.Engine - INFO - [cached since 1.939s ago] ()
+2026-06-21 17:50:06,781 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:06,794 - sqlalchemy.engine.Engine - INFO - [cached since 2.033s ago] ()
+2026-06-21 17:50:06,883 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:06,892 - sqlalchemy.engine.Engine - INFO - [cached since 2.131s ago] ()
+2026-06-21 17:50:07,012 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:07,019 - sqlalchemy.engine.Engine - INFO - [cached since 2.259s ago] ()
+2026-06-21 17:50:07,079 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:07,084 - sqlalchemy.engine.Engine - INFO - [cached since 2.324s ago] ()
+2026-06-21 17:50:07,147 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:07,150 - sqlalchemy.engine.Engine - INFO - [cached since 2.39s ago] ()
+2026-06-21 17:50:07,211 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:07,217 - sqlalchemy.engine.Engine - INFO - [cached since 2.456s ago] ()
+2026-06-21 17:50:07,281 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:07,285 - sqlalchemy.engine.Engine - INFO - [cached since 2.525s ago] ()
+2026-06-21 17:50:07,366 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:07,372 - sqlalchemy.engine.Engine - INFO - [cached since 2.612s ago] ()
+2026-06-21 17:50:07,435 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable" 
+WHERE "UsersTable"."tgId" = ?
+2026-06-21 17:50:07,437 - sqlalchemy.engine.Engine - INFO - [generated in 0.00232s] (670263244,)
+2026-06-21 17:50:07,487 - sqlalchemy.engine.Engine - INFO - UPDATE "UsersTable" SET balance=("UsersTable".balance - ?) WHERE "UsersTable"."tgId" = ?
+2026-06-21 17:50:07,494 - sqlalchemy.engine.Engine - INFO - [generated in 0.00755s] (0.015, 670263244)
+2026-06-21 17:50:07,536 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 17:50:07,814 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:50:07,821 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:07,829 - sqlalchemy.engine.Engine - INFO - [cached since 3.068s ago] ()
+2026-06-21 17:50:07,920 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:07,929 - sqlalchemy.engine.Engine - INFO - [cached since 3.169s ago] ()
+2026-06-21 17:50:08,025 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:08,032 - sqlalchemy.engine.Engine - INFO - [cached since 3.272s ago] ()
+2026-06-21 17:50:08,092 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:08,096 - sqlalchemy.engine.Engine - INFO - [cached since 3.336s ago] ()
+2026-06-21 17:50:08,169 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:08,175 - sqlalchemy.engine.Engine - INFO - [cached since 3.415s ago] ()
+2026-06-21 17:50:08,335 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:08,345 - sqlalchemy.engine.Engine - INFO - [cached since 3.585s ago] ()
+2026-06-21 17:50:08,419 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:08,427 - sqlalchemy.engine.Engine - INFO - [cached since 3.667s ago] ()
+2026-06-21 17:50:08,514 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:08,521 - sqlalchemy.engine.Engine - INFO - [cached since 3.761s ago] ()
+2026-06-21 17:50:08,588 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:08,597 - sqlalchemy.engine.Engine - INFO - [cached since 3.837s ago] ()
+2026-06-21 17:50:08,667 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:08,671 - sqlalchemy.engine.Engine - INFO - [cached since 3.911s ago] ()
+2026-06-21 17:50:08,729 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable" 
+WHERE "UsersTable"."tgId" = ?
+2026-06-21 17:50:08,736 - sqlalchemy.engine.Engine - INFO - [cached since 1.301s ago] (5690175885,)
+2026-06-21 17:50:08,745 - sqlalchemy.engine.Engine - INFO - UPDATE "UsersTable" SET balance=("UsersTable".balance - ?) WHERE "UsersTable"."tgId" = ?
+2026-06-21 17:50:08,751 - sqlalchemy.engine.Engine - INFO - [cached since 1.264s ago] (0.015, 5690175885)
+2026-06-21 17:50:08,762 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 17:50:08,998 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:50:09,009 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:09,012 - sqlalchemy.engine.Engine - INFO - [cached since 4.252s ago] ()
+2026-06-21 17:50:09,174 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:09,179 - sqlalchemy.engine.Engine - INFO - [cached since 4.419s ago] ()
+2026-06-21 17:50:09,252 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:09,258 - sqlalchemy.engine.Engine - INFO - [cached since 4.498s ago] ()
+2026-06-21 17:50:09,316 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:09,320 - sqlalchemy.engine.Engine - INFO - [cached since 4.56s ago] ()
+2026-06-21 17:50:09,395 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:09,398 - sqlalchemy.engine.Engine - INFO - [cached since 4.638s ago] ()
+2026-06-21 17:50:09,599 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:50:10,887 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:50:10,892 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:10,899 - sqlalchemy.engine.Engine - INFO - [cached since 6.139s ago] ()
+2026-06-21 17:50:10,905 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:50:13,919 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:50:13,931 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:50:13,934 - sqlalchemy.engine.Engine - INFO - [cached since 9.174s ago] ()
+2026-06-21 17:50:13,941 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:50:16,059 - aiogram.event - INFO - Update id=831867917 is not handled. Duration 5174 ms by bot id=8516668126
+2026-06-21 17:50:16,061 - aiogram.event - ERROR - Cause exception while process update id=831867917 by bot id=8516668126
+ValidationError: 1 validation error for InlineKeyboardButton
+url
+  Input should be a valid string [type=string_type, input_value=-1002724022440, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 163, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 155, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 191, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 163, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 155, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 183, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\Desktop\meimunusd\sources\handlers\commands.py", line 62, in StartCommand
+    reply_markup = await sponsors.FormateKeyboard("open:main", msg.from_user.id),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\Desktop\meimunusd\sources\utils\sponsors.py", line 91, in FormateKeyboard
+    InlineKeyboardButton(
+    ~~~~~~~~~~~~~~~~~~~~^
+        text=f"Спонсор №{i + 1}",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+        url=link
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\pydantic\main.py", line 250, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardButton
+url
+  Input should be a valid string [type=string_type, input_value=-1002724022440, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-06-21 17:53:22,468 - aiogram.dispatcher - INFO - Polling stopped
+2026-06-21 17:53:22,487 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-06-21 17:53:22,495 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8516668126)
+2026-06-21 17:53:22,769 - aiogram.dispatcher - INFO - Polling stopped for bot @goluboytemshikBot id=8516668126 - 'goluboytemshikbot'
+2026-06-21 17:53:26,872 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-8' coro=<Event.wait() running at C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\asyncio\locks.py:213> wait_for=<Future cancelled> cb=[gather.<locals>._done_callback() at C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2026-06-21 17:53:26,875 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._polling() done, defined at C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py:354> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 167, in make_request
+    async with session.post(
+               ^^^^^^^^^^^^^
+    ...<3 lines>...
+    ) as resp:
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client.py", line 1521, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client.py", line 788, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client.py", line 766, in _connect_and_send_request
+    await resp.start(conn)
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client_reqrep.py", line 539, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\streams.py", line 707, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 220, in _listen_updates
+    updates = await bot(get_updates, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 493, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 176, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}") from e
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 391, in _polling
+    async for update in self._listen_updates(
+    ...<19 lines>...
+            await handle_update
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 233, in _listen_updates
+    await backoff.asleep()
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\utils\backoff.py", line 65, in asleep
+    await asyncio.sleep(next(self))
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py", line 718, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pcuser\Desktop\meimunusd\bot.py", line 60, in <module>
+    asyncio.run(main())
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 194, in run
+    with Runner(debug=debug, loop_factory=loop_factory) as runner:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 62, in __exit__
+    self.close()
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 70, in close
+    _cancel_all_tasks(loop)
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 206, in _cancel_all_tasks
+    loop.run_until_complete(tasks.gather(*to_cancel, return_exceptions=True))
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 2061, in _run_once
+    handle._run()
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 413, in _polling
+    loggers.dispatcher.info(
+    ...<4 lines>...
+    )
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py", line 1520, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py", line 1665, in _log
+    self.handle(record)
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py", line 1681, in handle
+    self.callHandlers(record)
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py", line 1737, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py", line 1027, in handle
+    self.emit(record)
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+KeyboardInterrupt
+2026-06-21 17:53:58,006 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:53:58,007 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("UsersTable")
+2026-06-21 17:53:58,007 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:53:58,011 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("PromoTable")
+2026-06-21 17:53:58,012 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:53:58,014 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("WithdrawTable")
+2026-06-21 17:53:58,015 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:53:58,017 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("SponsorsTable")
+2026-06-21 17:53:58,017 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:53:58,019 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 17:53:58,130 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-21 17:53:58,139 - apscheduler.scheduler - INFO - Added job "CheckAllUsersSubsOnStatisOP" to job store "default"
+2026-06-21 17:53:58,140 - apscheduler.scheduler - INFO - Scheduler started
+2026-06-21 17:53:58,144 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:53:58,157 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable"
+2026-06-21 17:53:58,158 - sqlalchemy.engine.Engine - INFO - [generated in 0.00110s] ()
+2026-06-21 17:53:58,426 - aiogram.dispatcher - INFO - Start polling
+2026-06-21 17:53:58,496 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,500 - sqlalchemy.engine.Engine - INFO - [generated in 0.00397s] ()
+2026-06-21 17:53:58,510 - aiogram.dispatcher - INFO - Run polling for bot @goluboytemshikBot id=8516668126 - 'goluboytemshikbot'
+2026-06-21 17:53:58,520 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,522 - sqlalchemy.engine.Engine - INFO - [cached since 0.02618s ago] ()
+2026-06-21 17:53:58,533 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,534 - sqlalchemy.engine.Engine - INFO - [cached since 0.03846s ago] ()
+2026-06-21 17:53:58,540 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,542 - sqlalchemy.engine.Engine - INFO - [cached since 0.04641s ago] ()
+2026-06-21 17:53:58,553 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,555 - sqlalchemy.engine.Engine - INFO - [cached since 0.05888s ago] ()
+2026-06-21 17:53:58,567 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,570 - sqlalchemy.engine.Engine - INFO - [cached since 0.07385s ago] ()
+2026-06-21 17:53:58,590 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,593 - sqlalchemy.engine.Engine - INFO - [cached since 0.09652s ago] ()
+2026-06-21 17:53:58,600 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,604 - sqlalchemy.engine.Engine - INFO - [cached since 0.1077s ago] ()
+2026-06-21 17:53:58,616 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,619 - sqlalchemy.engine.Engine - INFO - [cached since 0.1229s ago] ()
+2026-06-21 17:53:58,632 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,636 - sqlalchemy.engine.Engine - INFO - [cached since 0.1397s ago] ()
+2026-06-21 17:53:58,646 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,648 - sqlalchemy.engine.Engine - INFO - [cached since 0.1519s ago] ()
+2026-06-21 17:53:58,656 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,659 - sqlalchemy.engine.Engine - INFO - [cached since 0.1628s ago] ()
+2026-06-21 17:53:58,665 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,667 - sqlalchemy.engine.Engine - INFO - [cached since 0.1708s ago] ()
+2026-06-21 17:53:58,679 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,680 - sqlalchemy.engine.Engine - INFO - [cached since 0.1843s ago] ()
+2026-06-21 17:53:58,689 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,693 - sqlalchemy.engine.Engine - INFO - [cached since 0.1969s ago] ()
+2026-06-21 17:53:58,703 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,705 - sqlalchemy.engine.Engine - INFO - [cached since 0.209s ago] ()
+2026-06-21 17:53:58,711 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,713 - sqlalchemy.engine.Engine - INFO - [cached since 0.2171s ago] ()
+2026-06-21 17:53:58,724 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,725 - sqlalchemy.engine.Engine - INFO - [cached since 0.2293s ago] ()
+2026-06-21 17:53:58,734 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,738 - sqlalchemy.engine.Engine - INFO - [cached since 0.2425s ago] ()
+2026-06-21 17:53:58,748 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,753 - sqlalchemy.engine.Engine - INFO - [cached since 0.2566s ago] ()
+2026-06-21 17:53:58,758 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,759 - sqlalchemy.engine.Engine - INFO - [cached since 0.2632s ago] ()
+2026-06-21 17:53:58,771 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,772 - sqlalchemy.engine.Engine - INFO - [cached since 0.2763s ago] ()
+2026-06-21 17:53:58,782 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,783 - sqlalchemy.engine.Engine - INFO - [cached since 0.2871s ago] ()
+2026-06-21 17:53:58,788 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,790 - sqlalchemy.engine.Engine - INFO - [cached since 0.2939s ago] ()
+2026-06-21 17:53:58,803 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,805 - sqlalchemy.engine.Engine - INFO - [cached since 0.3085s ago] ()
+2026-06-21 17:53:58,813 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,815 - sqlalchemy.engine.Engine - INFO - [cached since 0.3193s ago] ()
+2026-06-21 17:53:58,821 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,826 - sqlalchemy.engine.Engine - INFO - [cached since 0.3301s ago] ()
+2026-06-21 17:53:58,833 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,835 - sqlalchemy.engine.Engine - INFO - [cached since 0.3387s ago] ()
+2026-06-21 17:53:58,843 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,846 - sqlalchemy.engine.Engine - INFO - [cached since 0.3496s ago] ()
+2026-06-21 17:53:58,851 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,853 - sqlalchemy.engine.Engine - INFO - [cached since 0.3566s ago] ()
+2026-06-21 17:53:58,865 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,866 - sqlalchemy.engine.Engine - INFO - [cached since 0.3702s ago] ()
+2026-06-21 17:53:58,874 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,878 - sqlalchemy.engine.Engine - INFO - [cached since 0.3818s ago] ()
+2026-06-21 17:53:58,883 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,884 - sqlalchemy.engine.Engine - INFO - [cached since 0.3884s ago] ()
+2026-06-21 17:53:58,896 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,897 - sqlalchemy.engine.Engine - INFO - [cached since 0.4013s ago] ()
+2026-06-21 17:53:58,905 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,908 - sqlalchemy.engine.Engine - INFO - [cached since 0.4121s ago] ()
+2026-06-21 17:53:58,915 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,916 - sqlalchemy.engine.Engine - INFO - [cached since 0.4202s ago] ()
+2026-06-21 17:53:58,928 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,930 - sqlalchemy.engine.Engine - INFO - [cached since 0.4335s ago] ()
+2026-06-21 17:53:58,937 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:53:58,940 - sqlalchemy.engine.Engine - INFO - [cached since 0.4435s ago] ()
+2026-06-21 17:53:59,039 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:54:01,590 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:54:01,598 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:54:01,600 - sqlalchemy.engine.Engine - INFO - [cached since 3.104s ago] ()
+2026-06-21 17:54:01,605 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:54:01,610 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:54:01,613 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:54:01,623 - sqlalchemy.engine.Engine - INFO - [cached since 3.127s ago] ()
+2026-06-21 17:54:01,630 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:54:03,902 - aiogram.event - INFO - Update id=831867918 is handled. Duration 2315 ms by bot id=8516668126
+2026-06-21 17:55:28,614 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:55:28,619 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:55:28,623 - sqlalchemy.engine.Engine - INFO - [cached since 90.13s ago] ()
+2026-06-21 17:55:28,629 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:55:28,634 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:55:28,637 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:55:28,639 - sqlalchemy.engine.Engine - INFO - [cached since 90.14s ago] ()
+2026-06-21 17:55:28,646 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:55:30,136 - aiogram.event - INFO - Update id=831867919 is not handled. Duration 1523 ms by bot id=8516668126
+2026-06-21 17:55:30,136 - aiogram.event - ERROR - Cause exception while process update id=831867919 by bot id=8516668126
+TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+Traceback (most recent call last):
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 163, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 155, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 191, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 163, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 155, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 183, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\Desktop\meimunusd\sources\handlers\callbacks.py", line 57, in StartCommand
+    await cb.message.edit_text(
+    ...<3 lines>...
+    )
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\methods\base.py", line 82, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 493, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 121, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2026-06-21 17:55:47,823 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:55:47,827 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:55:47,831 - sqlalchemy.engine.Engine - INFO - [cached since 109.3s ago] ()
+2026-06-21 17:55:47,839 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:55:47,847 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:55:47,849 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:55:47,852 - sqlalchemy.engine.Engine - INFO - [cached since 109.4s ago] ()
+2026-06-21 17:55:47,862 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:55:49,341 - aiogram.event - INFO - Update id=831867920 is not handled. Duration 1520 ms by bot id=8516668126
+2026-06-21 17:55:49,342 - aiogram.event - ERROR - Cause exception while process update id=831867920 by bot id=8516668126
+TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+Traceback (most recent call last):
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 163, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 155, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 191, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 163, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 155, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 183, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\Desktop\meimunusd\sources\handlers\callbacks.py", line 57, in StartCommand
+    await cb.message.edit_text(
+    ...<3 lines>...
+    )
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\methods\base.py", line 82, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 493, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 121, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2026-06-21 17:56:55,325 - aiogram.dispatcher - INFO - Polling stopped
+2026-06-21 17:56:55,331 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-06-21 17:56:55,332 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8516668126)
+2026-06-21 17:56:55,598 - aiogram.dispatcher - INFO - Polling stopped for bot @goluboytemshikBot id=8516668126 - 'goluboytemshikbot'
+2026-06-21 17:58:22,156 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:58:22,157 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("UsersTable")
+2026-06-21 17:58:22,159 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:58:22,165 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("PromoTable")
+2026-06-21 17:58:22,167 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:58:22,171 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("WithdrawTable")
+2026-06-21 17:58:22,173 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:58:22,181 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("SponsorsTable")
+2026-06-21 17:58:22,183 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 17:58:22,188 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 17:58:22,215 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-21 17:58:22,218 - apscheduler.scheduler - INFO - Added job "CheckAllUsersSubsOnStatisOP" to job store "default"
+2026-06-21 17:58:22,218 - apscheduler.scheduler - INFO - Scheduler started
+2026-06-21 17:58:22,228 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:58:22,247 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable"
+2026-06-21 17:58:22,249 - sqlalchemy.engine.Engine - INFO - [generated in 0.00185s] ()
+2026-06-21 17:58:22,501 - aiogram.dispatcher - INFO - Start polling
+2026-06-21 17:58:22,557 - aiogram.dispatcher - INFO - Run polling for bot @goluboytemshikBot id=8516668126 - 'goluboytemshikbot'
+2026-06-21 17:58:22,745 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,750 - sqlalchemy.engine.Engine - INFO - [generated in 0.00454s] ()
+2026-06-21 17:58:22,758 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,761 - sqlalchemy.engine.Engine - INFO - [cached since 0.01616s ago] ()
+2026-06-21 17:58:22,771 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,774 - sqlalchemy.engine.Engine - INFO - [cached since 0.0284s ago] ()
+2026-06-21 17:58:22,781 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,787 - sqlalchemy.engine.Engine - INFO - [cached since 0.04208s ago] ()
+2026-06-21 17:58:22,793 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,795 - sqlalchemy.engine.Engine - INFO - [cached since 0.05004s ago] ()
+2026-06-21 17:58:22,806 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,808 - sqlalchemy.engine.Engine - INFO - [cached since 0.06269s ago] ()
+2026-06-21 17:58:22,817 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,819 - sqlalchemy.engine.Engine - INFO - [cached since 0.07381s ago] ()
+2026-06-21 17:58:22,824 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,826 - sqlalchemy.engine.Engine - INFO - [cached since 0.08069s ago] ()
+2026-06-21 17:58:22,838 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,840 - sqlalchemy.engine.Engine - INFO - [cached since 0.09508s ago] ()
+2026-06-21 17:58:22,852 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,854 - sqlalchemy.engine.Engine - INFO - [cached since 0.1083s ago] ()
+2026-06-21 17:58:22,859 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,866 - sqlalchemy.engine.Engine - INFO - [cached since 0.1206s ago] ()
+2026-06-21 17:58:22,871 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,873 - sqlalchemy.engine.Engine - INFO - [cached since 0.1276s ago] ()
+2026-06-21 17:58:22,884 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,886 - sqlalchemy.engine.Engine - INFO - [cached since 0.1405s ago] ()
+2026-06-21 17:58:22,895 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,897 - sqlalchemy.engine.Engine - INFO - [cached since 0.1519s ago] ()
+2026-06-21 17:58:22,903 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,904 - sqlalchemy.engine.Engine - INFO - [cached since 0.1593s ago] ()
+2026-06-21 17:58:22,916 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,918 - sqlalchemy.engine.Engine - INFO - [cached since 0.1727s ago] ()
+2026-06-21 17:58:22,926 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,929 - sqlalchemy.engine.Engine - INFO - [cached since 0.184s ago] ()
+2026-06-21 17:58:22,935 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,941 - sqlalchemy.engine.Engine - INFO - [cached since 0.1954s ago] ()
+2026-06-21 17:58:22,948 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,950 - sqlalchemy.engine.Engine - INFO - [cached since 0.2043s ago] ()
+2026-06-21 17:58:22,958 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,962 - sqlalchemy.engine.Engine - INFO - [cached since 0.2162s ago] ()
+2026-06-21 17:58:22,967 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,973 - sqlalchemy.engine.Engine - INFO - [cached since 0.2276s ago] ()
+2026-06-21 17:58:22,980 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,982 - sqlalchemy.engine.Engine - INFO - [cached since 0.2371s ago] ()
+2026-06-21 17:58:22,996 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:22,999 - sqlalchemy.engine.Engine - INFO - [cached since 0.254s ago] ()
+2026-06-21 17:58:23,012 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:23,018 - sqlalchemy.engine.Engine - INFO - [cached since 0.2722s ago] ()
+2026-06-21 17:58:23,030 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:23,035 - sqlalchemy.engine.Engine - INFO - [cached since 0.2895s ago] ()
+2026-06-21 17:58:23,043 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:23,052 - sqlalchemy.engine.Engine - INFO - [cached since 0.3073s ago] ()
+2026-06-21 17:58:23,059 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:23,067 - sqlalchemy.engine.Engine - INFO - [cached since 0.3212s ago] ()
+2026-06-21 17:58:23,074 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:23,079 - sqlalchemy.engine.Engine - INFO - [cached since 0.3338s ago] ()
+2026-06-21 17:58:23,093 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:23,097 - sqlalchemy.engine.Engine - INFO - [cached since 0.3519s ago] ()
+2026-06-21 17:58:23,104 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:23,107 - sqlalchemy.engine.Engine - INFO - [cached since 0.3617s ago] ()
+2026-06-21 17:58:23,133 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:23,136 - sqlalchemy.engine.Engine - INFO - [cached since 0.3911s ago] ()
+2026-06-21 17:58:23,148 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:23,150 - sqlalchemy.engine.Engine - INFO - [cached since 0.4051s ago] ()
+2026-06-21 17:58:23,162 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:23,165 - sqlalchemy.engine.Engine - INFO - [cached since 0.42s ago] ()
+2026-06-21 17:58:23,184 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:23,192 - sqlalchemy.engine.Engine - INFO - [cached since 0.4468s ago] ()
+2026-06-21 17:58:23,207 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:23,215 - sqlalchemy.engine.Engine - INFO - [cached since 0.4697s ago] ()
+2026-06-21 17:58:23,226 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:23,231 - sqlalchemy.engine.Engine - INFO - [cached since 0.4858s ago] ()
+2026-06-21 17:58:23,241 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:23,243 - sqlalchemy.engine.Engine - INFO - [cached since 0.4976s ago] ()
+2026-06-21 17:58:23,254 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:23,256 - sqlalchemy.engine.Engine - INFO - [cached since 0.5104s ago] ()
+2026-06-21 17:58:23,347 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:58:31,235 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:58:31,240 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:31,244 - sqlalchemy.engine.Engine - INFO - [cached since 8.499s ago] ()
+2026-06-21 17:58:31,257 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:58:31,269 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:58:31,272 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:31,277 - sqlalchemy.engine.Engine - INFO - [cached since 8.532s ago] ()
+2026-06-21 17:58:31,289 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:58:32,837 - aiogram.event - INFO - Update id=831867921 is handled. Duration 1605 ms by bot id=8516668126
+2026-06-21 17:58:45,110 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:58:45,111 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:45,113 - sqlalchemy.engine.Engine - INFO - [cached since 22.37s ago] ()
+2026-06-21 17:58:45,120 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:58:45,131 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 17:58:45,133 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 17:58:45,136 - sqlalchemy.engine.Engine - INFO - [cached since 22.39s ago] ()
+2026-06-21 17:58:45,145 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 17:58:47,199 - aiogram.event - INFO - Update id=831867922 is not handled. Duration 2091 ms by bot id=8516668126
+2026-06-21 17:58:47,201 - aiogram.event - ERROR - Cause exception while process update id=831867922 by bot id=8516668126
+TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+Traceback (most recent call last):
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 163, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 155, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 191, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 163, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 155, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 183, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\Desktop\meimunusd\sources\handlers\callbacks.py", line 57, in StartCommand
+    await cb.message.edit_text(
+    ...<3 lines>...
+    )
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\methods\base.py", line 82, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 493, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 121, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2026-06-21 18:00:07,722 - aiogram.dispatcher - INFO - Polling stopped
+2026-06-21 18:00:07,725 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-06-21 18:00:07,733 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8516668126)
+2026-06-21 18:00:07,999 - aiogram.dispatcher - INFO - Polling stopped for bot @goluboytemshikBot id=8516668126 - 'goluboytemshikbot'
+2026-06-21 18:00:22,162 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:00:22,164 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("UsersTable")
+2026-06-21 18:00:22,164 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 18:00:22,168 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("PromoTable")
+2026-06-21 18:00:22,169 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 18:00:22,172 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("WithdrawTable")
+2026-06-21 18:00:22,172 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 18:00:22,174 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("SponsorsTable")
+2026-06-21 18:00:22,175 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 18:00:22,180 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 18:00:22,199 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-21 18:00:22,201 - apscheduler.scheduler - INFO - Added job "CheckAllUsersSubsOnStatisOP" to job store "default"
+2026-06-21 18:00:22,201 - apscheduler.scheduler - INFO - Scheduler started
+2026-06-21 18:00:22,205 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:00:22,220 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable"
+2026-06-21 18:00:22,221 - sqlalchemy.engine.Engine - INFO - [generated in 0.00095s] ()
+2026-06-21 18:00:22,523 - aiogram.dispatcher - INFO - Start polling
+2026-06-21 18:00:22,545 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,549 - sqlalchemy.engine.Engine - INFO - [generated in 0.00403s] ()
+2026-06-21 18:00:22,558 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,560 - sqlalchemy.engine.Engine - INFO - [cached since 0.01461s ago] ()
+2026-06-21 18:00:22,569 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,573 - sqlalchemy.engine.Engine - INFO - [cached since 0.02766s ago] ()
+2026-06-21 18:00:22,579 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,584 - sqlalchemy.engine.Engine - INFO - [cached since 0.03873s ago] ()
+2026-06-21 18:00:22,594 - aiogram.dispatcher - INFO - Run polling for bot @goluboytemshikBot id=8516668126 - 'goluboytemshikbot'
+2026-06-21 18:00:22,601 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,603 - sqlalchemy.engine.Engine - INFO - [cached since 0.058s ago] ()
+2026-06-21 18:00:22,609 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,611 - sqlalchemy.engine.Engine - INFO - [cached since 0.06597s ago] ()
+2026-06-21 18:00:22,622 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,624 - sqlalchemy.engine.Engine - INFO - [cached since 0.07924s ago] ()
+2026-06-21 18:00:22,636 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,639 - sqlalchemy.engine.Engine - INFO - [cached since 0.09258s ago] ()
+2026-06-21 18:00:22,647 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,650 - sqlalchemy.engine.Engine - INFO - [cached since 0.1044s ago] ()
+2026-06-21 18:00:22,655 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,658 - sqlalchemy.engine.Engine - INFO - [cached since 0.113s ago] ()
+2026-06-21 18:00:22,669 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,670 - sqlalchemy.engine.Engine - INFO - [cached since 0.1247s ago] ()
+2026-06-21 18:00:22,678 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,682 - sqlalchemy.engine.Engine - INFO - [cached since 0.136s ago] ()
+2026-06-21 18:00:22,687 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,689 - sqlalchemy.engine.Engine - INFO - [cached since 0.1429s ago] ()
+2026-06-21 18:00:22,700 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,702 - sqlalchemy.engine.Engine - INFO - [cached since 0.1564s ago] ()
+2026-06-21 18:00:22,711 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,712 - sqlalchemy.engine.Engine - INFO - [cached since 0.1669s ago] ()
+2026-06-21 18:00:22,717 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,719 - sqlalchemy.engine.Engine - INFO - [cached since 0.1736s ago] ()
+2026-06-21 18:00:22,729 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,731 - sqlalchemy.engine.Engine - INFO - [cached since 0.1853s ago] ()
+2026-06-21 18:00:22,736 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,743 - sqlalchemy.engine.Engine - INFO - [cached since 0.1974s ago] ()
+2026-06-21 18:00:22,748 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,749 - sqlalchemy.engine.Engine - INFO - [cached since 0.2039s ago] ()
+2026-06-21 18:00:22,758 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,760 - sqlalchemy.engine.Engine - INFO - [cached since 0.2146s ago] ()
+2026-06-21 18:00:22,765 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,767 - sqlalchemy.engine.Engine - INFO - [cached since 0.2213s ago] ()
+2026-06-21 18:00:22,776 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,778 - sqlalchemy.engine.Engine - INFO - [cached since 0.2323s ago] ()
+2026-06-21 18:00:22,783 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,784 - sqlalchemy.engine.Engine - INFO - [cached since 0.2389s ago] ()
+2026-06-21 18:00:22,795 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,797 - sqlalchemy.engine.Engine - INFO - [cached since 0.2512s ago] ()
+2026-06-21 18:00:22,805 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,808 - sqlalchemy.engine.Engine - INFO - [cached since 0.2624s ago] ()
+2026-06-21 18:00:22,813 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,814 - sqlalchemy.engine.Engine - INFO - [cached since 0.269s ago] ()
+2026-06-21 18:00:22,824 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,826 - sqlalchemy.engine.Engine - INFO - [cached since 0.2805s ago] ()
+2026-06-21 18:00:22,831 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,833 - sqlalchemy.engine.Engine - INFO - [cached since 0.2874s ago] ()
+2026-06-21 18:00:22,843 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,845 - sqlalchemy.engine.Engine - INFO - [cached since 0.2996s ago] ()
+2026-06-21 18:00:22,853 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,856 - sqlalchemy.engine.Engine - INFO - [cached since 0.3109s ago] ()
+2026-06-21 18:00:22,861 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,863 - sqlalchemy.engine.Engine - INFO - [cached since 0.3175s ago] ()
+2026-06-21 18:00:22,874 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,876 - sqlalchemy.engine.Engine - INFO - [cached since 0.3303s ago] ()
+2026-06-21 18:00:22,884 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,886 - sqlalchemy.engine.Engine - INFO - [cached since 0.341s ago] ()
+2026-06-21 18:00:22,893 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,894 - sqlalchemy.engine.Engine - INFO - [cached since 0.3487s ago] ()
+2026-06-21 18:00:22,905 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,907 - sqlalchemy.engine.Engine - INFO - [cached since 0.3616s ago] ()
+2026-06-21 18:00:22,915 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,918 - sqlalchemy.engine.Engine - INFO - [cached since 0.3723s ago] ()
+2026-06-21 18:00:22,924 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,925 - sqlalchemy.engine.Engine - INFO - [cached since 0.3798s ago] ()
+2026-06-21 18:00:22,935 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:00:22,937 - sqlalchemy.engine.Engine - INFO - [cached since 0.3913s ago] ()
+2026-06-21 18:00:23,049 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:03:45,436 - aiogram.dispatcher - INFO - Polling stopped
+2026-06-21 18:03:45,439 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-06-21 18:03:45,447 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8516668126)
+2026-06-21 18:03:45,716 - aiogram.dispatcher - INFO - Polling stopped for bot @goluboytemshikBot id=8516668126 - 'goluboytemshikbot'
+2026-06-21 18:04:14,751 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:04:14,755 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("UsersTable")
+2026-06-21 18:04:14,761 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 18:04:14,770 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("PromoTable")
+2026-06-21 18:04:14,772 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 18:04:14,779 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("WithdrawTable")
+2026-06-21 18:04:14,783 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 18:04:14,789 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("SponsorsTable")
+2026-06-21 18:04:14,791 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 18:04:14,798 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 18:04:14,822 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-21 18:04:14,829 - apscheduler.scheduler - INFO - Added job "CheckAllUsersSubsOnStatisOP" to job store "default"
+2026-06-21 18:04:14,830 - apscheduler.scheduler - INFO - Scheduler started
+2026-06-21 18:04:14,836 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:04:14,855 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable"
+2026-06-21 18:04:14,858 - sqlalchemy.engine.Engine - INFO - [generated in 0.00211s] ()
+2026-06-21 18:04:15,241 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:15,247 - sqlalchemy.engine.Engine - INFO - [generated in 0.00677s] ()
+2026-06-21 18:04:15,497 - aiogram.dispatcher - INFO - Start polling
+2026-06-21 18:04:15,549 - aiogram.dispatcher - INFO - Run polling for bot @goluboytemshikBot id=8516668126 - 'goluboytemshikbot'
+2026-06-21 18:04:15,623 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:15,628 - sqlalchemy.engine.Engine - INFO - [cached since 0.3856s ago] ()
+2026-06-21 18:04:15,698 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:15,702 - sqlalchemy.engine.Engine - INFO - [cached since 0.4612s ago] ()
+2026-06-21 18:04:15,760 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:15,764 - sqlalchemy.engine.Engine - INFO - [cached since 0.523s ago] ()
+2026-06-21 18:04:15,822 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:15,826 - sqlalchemy.engine.Engine - INFO - [cached since 0.5852s ago] ()
+2026-06-21 18:04:15,888 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:15,892 - sqlalchemy.engine.Engine - INFO - [cached since 0.6514s ago] ()
+2026-06-21 18:04:15,952 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:15,956 - sqlalchemy.engine.Engine - INFO - [cached since 0.7152s ago] ()
+2026-06-21 18:04:16,016 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:16,019 - sqlalchemy.engine.Engine - INFO - [cached since 0.7785s ago] ()
+2026-06-21 18:04:16,147 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:16,149 - sqlalchemy.engine.Engine - INFO - [cached since 0.9084s ago] ()
+2026-06-21 18:04:16,222 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:16,226 - sqlalchemy.engine.Engine - INFO - [cached since 0.9849s ago] ()
+2026-06-21 18:04:16,290 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:16,294 - sqlalchemy.engine.Engine - INFO - [cached since 1.054s ago] ()
+2026-06-21 18:04:16,390 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:16,395 - sqlalchemy.engine.Engine - INFO - [cached since 1.155s ago] ()
+2026-06-21 18:04:16,739 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:16,742 - sqlalchemy.engine.Engine - INFO - [cached since 1.501s ago] ()
+2026-06-21 18:04:16,799 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:16,805 - sqlalchemy.engine.Engine - INFO - [cached since 1.564s ago] ()
+2026-06-21 18:04:16,918 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:16,923 - sqlalchemy.engine.Engine - INFO - [cached since 1.682s ago] ()
+2026-06-21 18:04:17,033 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:17,037 - sqlalchemy.engine.Engine - INFO - [cached since 1.796s ago] ()
+2026-06-21 18:04:17,159 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:17,163 - sqlalchemy.engine.Engine - INFO - [cached since 1.922s ago] ()
+2026-06-21 18:04:17,310 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:17,314 - sqlalchemy.engine.Engine - INFO - [cached since 2.073s ago] ()
+2026-06-21 18:04:17,377 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:17,380 - sqlalchemy.engine.Engine - INFO - [cached since 2.14s ago] ()
+2026-06-21 18:04:17,438 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:17,442 - sqlalchemy.engine.Engine - INFO - [cached since 2.202s ago] ()
+2026-06-21 18:04:17,498 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:17,502 - sqlalchemy.engine.Engine - INFO - [cached since 2.261s ago] ()
+2026-06-21 18:04:17,564 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:17,568 - sqlalchemy.engine.Engine - INFO - [cached since 2.327s ago] ()
+2026-06-21 18:04:17,731 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:17,734 - sqlalchemy.engine.Engine - INFO - [cached since 2.494s ago] ()
+2026-06-21 18:04:17,797 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable" 
+WHERE "UsersTable"."tgId" = ?
+2026-06-21 18:04:17,798 - sqlalchemy.engine.Engine - INFO - [generated in 0.00201s] (670263244,)
+2026-06-21 18:04:17,808 - sqlalchemy.engine.Engine - INFO - UPDATE "UsersTable" SET balance=("UsersTable".balance - ?) WHERE "UsersTable"."tgId" = ?
+2026-06-21 18:04:17,812 - sqlalchemy.engine.Engine - INFO - [generated in 0.00192s] (0.015, 670263244)
+2026-06-21 18:04:17,824 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 18:04:18,133 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:04:18,136 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:18,138 - sqlalchemy.engine.Engine - INFO - [cached since 2.897s ago] ()
+2026-06-21 18:04:18,285 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:18,292 - sqlalchemy.engine.Engine - INFO - [cached since 3.051s ago] ()
+2026-06-21 18:04:18,416 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:18,419 - sqlalchemy.engine.Engine - INFO - [cached since 3.178s ago] ()
+2026-06-21 18:04:18,512 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:18,515 - sqlalchemy.engine.Engine - INFO - [cached since 3.274s ago] ()
+2026-06-21 18:04:18,588 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:18,592 - sqlalchemy.engine.Engine - INFO - [cached since 3.351s ago] ()
+2026-06-21 18:04:18,677 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:18,682 - sqlalchemy.engine.Engine - INFO - [cached since 3.441s ago] ()
+2026-06-21 18:04:18,770 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:18,774 - sqlalchemy.engine.Engine - INFO - [cached since 3.533s ago] ()
+2026-06-21 18:04:18,873 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:18,877 - sqlalchemy.engine.Engine - INFO - [cached since 3.637s ago] ()
+2026-06-21 18:04:18,937 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:18,941 - sqlalchemy.engine.Engine - INFO - [cached since 3.7s ago] ()
+2026-06-21 18:04:19,025 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:19,030 - sqlalchemy.engine.Engine - INFO - [cached since 3.789s ago] ()
+2026-06-21 18:04:19,089 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable" 
+WHERE "UsersTable"."tgId" = ?
+2026-06-21 18:04:19,092 - sqlalchemy.engine.Engine - INFO - [cached since 1.296s ago] (5690175885,)
+2026-06-21 18:04:19,101 - sqlalchemy.engine.Engine - INFO - UPDATE "UsersTable" SET balance=("UsersTable".balance - ?) WHERE "UsersTable"."tgId" = ?
+2026-06-21 18:04:19,103 - sqlalchemy.engine.Engine - INFO - [cached since 1.295s ago] (0.015, 5690175885)
+2026-06-21 18:04:19,112 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 18:04:19,322 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:04:19,329 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:19,331 - sqlalchemy.engine.Engine - INFO - [cached since 4.091s ago] ()
+2026-06-21 18:04:19,442 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:19,445 - sqlalchemy.engine.Engine - INFO - [cached since 4.205s ago] ()
+2026-06-21 18:04:19,529 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:19,533 - sqlalchemy.engine.Engine - INFO - [cached since 4.291s ago] ()
+2026-06-21 18:04:19,611 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:19,615 - sqlalchemy.engine.Engine - INFO - [cached since 4.374s ago] ()
+2026-06-21 18:04:19,674 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:19,679 - sqlalchemy.engine.Engine - INFO - [cached since 4.438s ago] ()
+2026-06-21 18:04:19,825 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:04:54,382 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:04:54,383 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:54,386 - sqlalchemy.engine.Engine - INFO - [cached since 39.15s ago] ()
+2026-06-21 18:04:54,396 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:04:57,882 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:04:57,888 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:04:57,892 - sqlalchemy.engine.Engine - INFO - [cached since 42.65s ago] ()
+2026-06-21 18:04:57,899 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:04:59,068 - aiogram.event - INFO - Update id=831867923 is handled. Duration 4689 ms by bot id=8516668126
+2026-06-21 18:05:26,191 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:05:26,192 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:05:26,194 - sqlalchemy.engine.Engine - INFO - [cached since 70.95s ago] ()
+2026-06-21 18:05:26,200 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:05:29,066 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:05:29,078 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:05:29,082 - sqlalchemy.engine.Engine - INFO - [cached since 73.84s ago] ()
+2026-06-21 18:05:29,097 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:05:30,286 - aiogram.event - INFO - Update id=831867924 is handled. Duration 4097 ms by bot id=8516668126
+2026-06-21 18:05:42,665 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:05:42,672 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:05:42,675 - sqlalchemy.engine.Engine - INFO - [cached since 87.43s ago] ()
+2026-06-21 18:05:42,689 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:05:45,313 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:05:45,323 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:05:45,335 - sqlalchemy.engine.Engine - INFO - [cached since 90.09s ago] ()
+2026-06-21 18:05:45,343 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:05:46,598 - aiogram.event - INFO - Update id=831867925 is not handled. Duration 3935 ms by bot id=8516668126
+2026-06-21 18:05:46,599 - aiogram.event - ERROR - Cause exception while process update id=831867925 by bot id=8516668126
+TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+Traceback (most recent call last):
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 163, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 155, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 191, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 163, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 155, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 183, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\Desktop\meimunusd\sources\handlers\callbacks.py", line 57, in StartCommand
+    await cb.message.edit_text(
+    ...<3 lines>...
+    )
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\methods\base.py", line 82, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 493, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+        bot=bot,
+    ...<2 lines>...
+        content=raw_result,
+    )
+  File "C:\Users\pcuser\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 121, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2026-06-21 18:09:22,896 - aiogram.dispatcher - INFO - Polling stopped
+2026-06-21 18:09:22,899 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-06-21 18:09:22,900 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8516668126)
+2026-06-21 18:09:23,162 - aiogram.dispatcher - INFO - Polling stopped for bot @goluboytemshikBot id=8516668126 - 'goluboytemshikbot'
+2026-06-21 18:09:43,301 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:09:43,302 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("UsersTable")
+2026-06-21 18:09:43,303 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 18:09:43,306 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("PromoTable")
+2026-06-21 18:09:43,307 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 18:09:43,309 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("WithdrawTable")
+2026-06-21 18:09:43,309 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 18:09:43,311 - sqlalchemy.engine.Engine - INFO - PRAGMA main.table_info("SponsorsTable")
+2026-06-21 18:09:43,312 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2026-06-21 18:09:43,314 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 18:09:43,378 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-21 18:09:43,381 - apscheduler.scheduler - INFO - Added job "CheckAllUsersSubsOnStatisOP" to job store "default"
+2026-06-21 18:09:43,382 - apscheduler.scheduler - INFO - Scheduler started
+2026-06-21 18:09:43,385 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:09:43,398 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable"
+2026-06-21 18:09:43,399 - sqlalchemy.engine.Engine - INFO - [generated in 0.00099s] ()
+2026-06-21 18:09:43,687 - aiogram.dispatcher - INFO - Start polling
+2026-06-21 18:09:43,737 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:43,741 - sqlalchemy.engine.Engine - INFO - [generated in 0.00399s] ()
+2026-06-21 18:09:43,750 - aiogram.dispatcher - INFO - Run polling for bot @goluboytemshikBot id=8516668126 - 'goluboytemshikbot'
+2026-06-21 18:09:43,818 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:43,822 - sqlalchemy.engine.Engine - INFO - [cached since 0.08499s ago] ()
+2026-06-21 18:09:43,887 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:43,889 - sqlalchemy.engine.Engine - INFO - [cached since 0.1519s ago] ()
+2026-06-21 18:09:43,947 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:43,951 - sqlalchemy.engine.Engine - INFO - [cached since 0.2142s ago] ()
+2026-06-21 18:09:44,011 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:44,015 - sqlalchemy.engine.Engine - INFO - [cached since 0.2778s ago] ()
+2026-06-21 18:09:44,082 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:44,086 - sqlalchemy.engine.Engine - INFO - [cached since 0.349s ago] ()
+2026-06-21 18:09:44,144 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:44,148 - sqlalchemy.engine.Engine - INFO - [cached since 0.4108s ago] ()
+2026-06-21 18:09:44,211 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:44,215 - sqlalchemy.engine.Engine - INFO - [cached since 0.4775s ago] ()
+2026-06-21 18:09:44,292 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:44,297 - sqlalchemy.engine.Engine - INFO - [cached since 0.5595s ago] ()
+2026-06-21 18:09:44,373 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:44,376 - sqlalchemy.engine.Engine - INFO - [cached since 0.639s ago] ()
+2026-06-21 18:09:44,444 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:44,448 - sqlalchemy.engine.Engine - INFO - [cached since 0.7108s ago] ()
+2026-06-21 18:09:44,529 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:44,533 - sqlalchemy.engine.Engine - INFO - [cached since 0.7954s ago] ()
+2026-06-21 18:09:44,601 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:44,605 - sqlalchemy.engine.Engine - INFO - [cached since 0.868s ago] ()
+2026-06-21 18:09:44,661 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:44,666 - sqlalchemy.engine.Engine - INFO - [cached since 0.9295s ago] ()
+2026-06-21 18:09:44,754 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:44,758 - sqlalchemy.engine.Engine - INFO - [cached since 1.021s ago] ()
+2026-06-21 18:09:44,849 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:44,856 - sqlalchemy.engine.Engine - INFO - [cached since 1.119s ago] ()
+2026-06-21 18:09:44,926 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:44,930 - sqlalchemy.engine.Engine - INFO - [cached since 1.193s ago] ()
+2026-06-21 18:09:45,002 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:45,008 - sqlalchemy.engine.Engine - INFO - [cached since 1.271s ago] ()
+2026-06-21 18:09:45,067 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:45,071 - sqlalchemy.engine.Engine - INFO - [cached since 1.334s ago] ()
+2026-06-21 18:09:45,132 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:45,136 - sqlalchemy.engine.Engine - INFO - [cached since 1.399s ago] ()
+2026-06-21 18:09:45,193 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:45,199 - sqlalchemy.engine.Engine - INFO - [cached since 1.462s ago] ()
+2026-06-21 18:09:45,270 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:45,272 - sqlalchemy.engine.Engine - INFO - [cached since 1.535s ago] ()
+2026-06-21 18:09:45,347 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:45,360 - sqlalchemy.engine.Engine - INFO - [cached since 1.623s ago] ()
+2026-06-21 18:09:45,425 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable" 
+WHERE "UsersTable"."tgId" = ?
+2026-06-21 18:09:45,428 - sqlalchemy.engine.Engine - INFO - [generated in 0.00281s] (670263244,)
+2026-06-21 18:09:45,442 - sqlalchemy.engine.Engine - INFO - UPDATE "UsersTable" SET balance=("UsersTable".balance - ?) WHERE "UsersTable"."tgId" = ?
+2026-06-21 18:09:45,445 - sqlalchemy.engine.Engine - INFO - [generated in 0.00189s] (0.015, 670263244)
+2026-06-21 18:09:45,455 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 18:09:45,659 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:09:45,665 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:45,667 - sqlalchemy.engine.Engine - INFO - [cached since 1.931s ago] ()
+2026-06-21 18:09:45,752 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:45,756 - sqlalchemy.engine.Engine - INFO - [cached since 2.019s ago] ()
+2026-06-21 18:09:45,831 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:45,835 - sqlalchemy.engine.Engine - INFO - [cached since 2.098s ago] ()
+2026-06-21 18:09:45,896 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:45,900 - sqlalchemy.engine.Engine - INFO - [cached since 2.163s ago] ()
+2026-06-21 18:09:45,960 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:45,964 - sqlalchemy.engine.Engine - INFO - [cached since 2.227s ago] ()
+2026-06-21 18:09:46,028 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:46,032 - sqlalchemy.engine.Engine - INFO - [cached since 2.295s ago] ()
+2026-06-21 18:09:46,116 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:46,121 - sqlalchemy.engine.Engine - INFO - [cached since 2.384s ago] ()
+2026-06-21 18:09:46,198 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:46,204 - sqlalchemy.engine.Engine - INFO - [cached since 2.467s ago] ()
+2026-06-21 18:09:46,293 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:46,297 - sqlalchemy.engine.Engine - INFO - [cached since 2.559s ago] ()
+2026-06-21 18:09:46,361 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:46,365 - sqlalchemy.engine.Engine - INFO - [cached since 2.628s ago] ()
+2026-06-21 18:09:46,431 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable" 
+WHERE "UsersTable"."tgId" = ?
+2026-06-21 18:09:46,436 - sqlalchemy.engine.Engine - INFO - [cached since 1.011s ago] (5690175885,)
+2026-06-21 18:09:46,443 - sqlalchemy.engine.Engine - INFO - UPDATE "UsersTable" SET balance=("UsersTable".balance - ?) WHERE "UsersTable"."tgId" = ?
+2026-06-21 18:09:46,445 - sqlalchemy.engine.Engine - INFO - [cached since 1.002s ago] (0.015, 5690175885)
+2026-06-21 18:09:46,454 - sqlalchemy.engine.Engine - INFO - COMMIT
+2026-06-21 18:09:46,687 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:09:46,691 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:46,694 - sqlalchemy.engine.Engine - INFO - [cached since 2.957s ago] ()
+2026-06-21 18:09:46,754 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:46,757 - sqlalchemy.engine.Engine - INFO - [cached since 3.019s ago] ()
+2026-06-21 18:09:46,828 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:46,831 - sqlalchemy.engine.Engine - INFO - [cached since 3.094s ago] ()
+2026-06-21 18:09:46,893 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:46,897 - sqlalchemy.engine.Engine - INFO - [cached since 3.159s ago] ()
+2026-06-21 18:09:46,959 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:46,962 - sqlalchemy.engine.Engine - INFO - [cached since 3.225s ago] ()
+2026-06-21 18:09:47,131 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:09:59,412 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:09:59,416 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:09:59,420 - sqlalchemy.engine.Engine - INFO - [cached since 15.68s ago] ()
+2026-06-21 18:09:59,439 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:10:02,478 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:10:02,481 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:10:02,483 - sqlalchemy.engine.Engine - INFO - [cached since 18.75s ago] ()
+2026-06-21 18:10:02,490 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:10:03,679 - aiogram.event - INFO - Update id=831867926 is handled. Duration 4277 ms by bot id=8516668126
+2026-06-21 18:10:39,618 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:10:39,623 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:10:39,626 - sqlalchemy.engine.Engine - INFO - [cached since 55.89s ago] ()
+2026-06-21 18:10:39,632 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:10:42,622 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:10:42,626 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:10:42,627 - sqlalchemy.engine.Engine - INFO - [cached since 58.89s ago] ()
+2026-06-21 18:10:42,639 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:10:44,314 - aiogram.event - INFO - Update id=831867927 is handled. Duration 4698 ms by bot id=8516668126
+2026-06-21 18:11:23,228 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:11:23,234 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:11:23,237 - sqlalchemy.engine.Engine - INFO - [cached since 99.5s ago] ()
+2026-06-21 18:11:23,243 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:11:25,964 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:11:25,969 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:11:25,978 - sqlalchemy.engine.Engine - INFO - [cached since 102.2s ago] ()
+2026-06-21 18:11:25,988 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:11:27,588 - aiogram.event - INFO - Update id=831867928 is handled. Duration 4362 ms by bot id=8516668126
+2026-06-21 18:11:59,535 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:11:59,539 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:11:59,540 - sqlalchemy.engine.Engine - INFO - [cached since 135.8s ago] ()
+2026-06-21 18:11:59,544 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:12:02,440 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:12:02,445 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:12:02,448 - sqlalchemy.engine.Engine - INFO - [cached since 138.7s ago] ()
+2026-06-21 18:12:02,464 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:12:04,874 - aiogram.event - INFO - Update id=831867929 is handled. Duration 5341 ms by bot id=8516668126
+2026-06-21 18:12:43,874 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:12:43,878 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:12:43,883 - sqlalchemy.engine.Engine - INFO - [cached since 180.1s ago] ()
+2026-06-21 18:12:43,890 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:12:45,202 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:12:45,210 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable" 
+WHERE "UsersTable"."tgId" = ?
+2026-06-21 18:12:45,214 - sqlalchemy.engine.Engine - INFO - [cached since 179.8s ago] (6005256084,)
+2026-06-21 18:12:45,229 - sqlalchemy.engine.Engine - INFO - SELECT "UsersTable".id, "UsersTable"."tgId", "UsersTable".username, "UsersTable".balance, "UsersTable"."referrerId", "UsersTable".referrals, "UsersTable"."lastBonus", "UsersTable"."isBanned", "UsersTable".brought, "UsersTable"."alreadyWarned" 
+FROM "UsersTable" 
+WHERE "UsersTable"."tgId" = ?
+2026-06-21 18:12:45,239 - sqlalchemy.engine.Engine - INFO - [cached since 179.8s ago] (6005256084,)
+2026-06-21 18:12:45,334 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:12:45,343 - aiogram.event - INFO - Update id=831867930 is handled. Duration 1471 ms by bot id=8516668126
+2026-06-21 18:12:48,432 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-06-21 18:12:48,440 - sqlalchemy.engine.Engine - INFO - SELECT "SponsorsTable".id, "SponsorsTable".tgid, "SponsorsTable".link, "SponsorsTable"."startDate", "SponsorsTable"."finishDate" 
+FROM "SponsorsTable"
+2026-06-21 18:12:48,442 - sqlalchemy.engine.Engine - INFO - [cached since 184.7s ago] ()
+2026-06-21 18:12:48,447 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-06-21 18:12:53,780 - aiogram.event - INFO - Update id=831867931 is handled. Duration 5350 ms by bot id=8516668126

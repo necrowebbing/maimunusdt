@@ -1,0 +1,39 @@
+{
+    "bonuses": {
+        "ref_bonus": 0.02,
+        "daily_bonus": 0.01,
+        "task_bonus": 0.01
+    },
+    "sponsors": {
+        "subgram_api": "",
+        "tgrass_api": "1c2e6f94216d40cca3d64c5e58cfb9a2",
+        "piar_flow_api": "EXROTG2bpnHR_awc7a1OuMyVysGnDFgw",
+        "static_sponsor_dict": {},
+        "unsubed_warn_price": 0.015
+    },
+    "admins": {
+        "admins_list": [
+            1373600396,
+            5127769179
+        ],
+        "admins_chat": -1003837278734,
+        "payots_chat": -1003606210999,
+        "payments_requests_chat": -1003651112200
+    },
+    "withdraw": {
+        "min_cb_withdraw": 1.488,
+        "is_type_allowed": {
+            "cryptobot": true
+        }
+    },
+    "support": {
+        "support_account": "t.me/meimunteamsupportbot"
+    },
+    "other": {
+        "pastebin_api": "gxCHV9XhdMZzDWTT_L6PAlzqMyNg_G1B",
+        "project_active": true,
+        "project_start_date": "06.06.2026",
+        "crypto_bot_api_key": "32635:AAlsZmcrSHX65DLX9s9CF1fdgdor4zE21tL",
+        "telegram_bot_api_key": "8843613001:AAF460zx9lL3s-9mscpWvrSE0xDLXohxZgo"
+    }
+}

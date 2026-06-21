@@ -1,0 +1,8 @@
+aiocryptopay==0.4.8
+aiofiles==25.1.0
+aiogram==3.27.0
+APScheduler==3.11.2
+aiohttp==3.13.5
+aiosqlite==0.22.1
+requests==2.33.1
+SQLAlchemy==2.0.49
