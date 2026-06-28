@@ -19,7 +19,7 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
-bot = Bot(token="8843613001:AAFhrYbF1vEjc1-KaR-2myX1ijlA_dJTsP4")
+bot = Bot(token="8843613001:AAExCJ4FtDJluT32fGysR_QtyfXRbNE1oos")
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.interval import IntervalTrigger
