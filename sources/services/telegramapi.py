@@ -2,7 +2,7 @@ from sources.utils.configmanager import AsyncConfigManager
 import aiohttp
 
 async def SendLogMessage(text: str):
-    BOT_TOKEN = "8843613001:AAFhrYbF1vEjc1-KaR-2myX1ijlA_dJTsP4"
+    BOT_TOKEN = "8843613001:AAExCJ4FtDJluT32fGysR_QtyfXRbNE1oos"
 
     chat_id = await AsyncConfigManager.get(
         "admins",
